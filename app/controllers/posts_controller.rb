@@ -19,5 +19,15 @@ class PostsController < ApplicationController
     @post = Post.find_by(id: params[:id])
     render :show
   end
+
+  def update
+    @post = Post.find_by(id: params[:id])
+    @post.update(
+      date: Date.today || @post.date,
+      title: params[:title] || @post.title,
+      content: params[:content] || @post.content,
+    )
+    render :show
+  end
   
 end
