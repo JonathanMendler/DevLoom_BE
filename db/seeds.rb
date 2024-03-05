@@ -10,5 +10,5 @@
 Post.destroy_all
 
 # Seed data
-Post.create(date: Date.today, title: "Demo Post 1", body: "Lorem ipsum dolor sit amet")
-Post.create(date: Date.today - 1.day, title: "Demo Post 2", body: "Lorem ipsum dolor sit amet")
+Post.create!(date: Date.today, title: "Demo Post 1", body: "Lorem ipsum dolor sit amet")
+Post.create!(date: Date.today - 1.day, title: "Demo Post 2", body: "Lorem ipsum dolor sit amet")
