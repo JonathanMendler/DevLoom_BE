@@ -73,3 +73,6 @@ end
 
 # Allow web requests from localhost:5173
 gem "rack-cors"
+
+# Create JSON Web Tokens (JWT)
+gem "jwt"
