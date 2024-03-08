@@ -1,7 +1,7 @@
 # DevLoom
 Welcome to the backend of DevLoom, a blogging platform built upon Ruby on Rails! This README will guide you through the setup process and provide an overview of the application's features.
 
-##Setup
+## Setup
 1. **Clone the repository**
    ```
    git clone https://github.com/JonathanMendler/DevLoom_BE.git
@@ -23,7 +23,7 @@ Welcome to the backend of DevLoom, a blogging platform built upon Ruby on Rails!
 
 Devloom should now be running at 'http://localhost:3000'.
 
-##Features
+## Features
 
 - **User Authentication:** Allows users to sign up, log in, and log out securely. Utilizes [Devise](https://github.com/heartcombo/devise) for authentication.
 * **Blog Management:** Users can create, read, update, and delete blog posts. Posts can be organized by categories and tagged for easy navigation.
@@ -32,14 +32,14 @@ Devloom should now be running at 'http://localhost:3000'.
 * **Authorization:** Implements role-based authorization to control access to certain parts of the application. Utilizes [CanCanCan](https://github.com/CanCanCommunity/cancancan) for authorization.
 + **API Support:** Optionally provides a RESTful API for interacting with the blog application programmatically.
 
-##Testing
+## Testing
 
 - **Unit Tests:** Run `rails test` to execute unit tests for models.
 * **Controller Tests:** Run `rails test:controllers` to execute controller tests.
 + **Integration Tests:** Run `rails test:integration` to execute integration tests.
 
-##Acknowledgments
+## Acknowledgments
 - Special thanks to the Ruby on Rails community for their indispensable insight and support
 
-##Contact
+## Contact
 jon.mendler@gmail.com
