@@ -1,6 +1,10 @@
 # DevLoom
 Welcome to the backend of DevLoom, a blogging platform built upon Ruby on Rails! This README will guide you through the setup process and provide an overview of the application's features.
 
+## Versions
+- **Ruby:** 3.2.2
+* **Rails:** 7.0.8.1
+
 ## Setup
 1. **Clone the repository**
    ```
