@@ -13,5 +13,5 @@ Post.destroy_all
 Post.create!(date: Date.today, title: "Demo Post 1", content: "Lorem ipsum dolor sit amet")
 Post.create!(date: Date.today - 1.day, title: "Demo Post 2", content: "Lorem ipsum dolor sit amet")
 
-User.create!(name: Jerry, email: "Jerry@test.com", password: "password", password_confirmation: "password")
-User.create!(name: Alan, email: "Alan@test.com", password: "password", password_confirmation: "password")
+User.create!(name: "Jerry", email: "Jerry@test.com", password: "password", password_confirmation: "password")
+User.create!(name: "Alan", email: "Alan@test.com", password: "password", password_confirmation: "password")
